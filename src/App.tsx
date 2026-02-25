@@ -23,6 +23,10 @@ import { Contact } from './pages/Contact';
 import { Login } from './pages/Login';
 import { Register } from './pages/Register';
 import { NotFound } from './pages/NotFound';
+import { Shipping } from './pages/Shipping';
+import { Returns } from './pages/Returns';
+import { FAQ } from './pages/FAQ';
+import { Privacy } from './pages/Privacy';
 
 export default function App() {
   return (
@@ -44,6 +48,10 @@ export default function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
+                <Route path="/shipping" element={<Shipping />} />
+                <Route path="/returns" element={<Returns />} />
+                <Route path="/faq" element={<FAQ />} />
+                <Route path="/privacy" element={<Privacy />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </main>

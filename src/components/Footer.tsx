@@ -27,11 +27,10 @@ export const Footer: React.FC = () => {
         <div>
           <h4 className="font-display text-lg font-bold mb-6">Quick Links</h4>
           <ul className="space-y-4">
-            {['Shop All', 'New Arrivals', 'Best Sellers', 'Skin Quiz', 'Our Story'].map(link => (
-              <li key={link}>
-                <Link to="/shop" className="text-slate-500 hover:text-primary-600 transition-colors">{link}</Link>
-              </li>
-            ))}
+            <li><Link to="/shop" className="text-slate-500 hover:text-primary-600 transition-colors">Shop All</Link></li>
+            <li><Link to="/shop" className="text-slate-500 hover:text-primary-600 transition-colors">New Arrivals</Link></li>
+            <li><Link to="/shop" className="text-slate-500 hover:text-primary-600 transition-colors">Best Sellers</Link></li>
+            <li><Link to="/about" className="text-slate-500 hover:text-primary-600 transition-colors">Our Story</Link></li>
           </ul>
         </div>
 
@@ -39,11 +38,11 @@ export const Footer: React.FC = () => {
         <div>
           <h4 className="font-display text-lg font-bold mb-6">Customer Care</h4>
           <ul className="space-y-4">
-            {['Shipping Policy', 'Returns & Exchanges', 'FAQs', 'Contact Us', 'Privacy Policy'].map(link => (
-              <li key={link}>
-                <Link to="/contact" className="text-slate-500 hover:text-primary-600 transition-colors">{link}</Link>
-              </li>
-            ))}
+            <li><Link to="/shipping" className="text-slate-500 hover:text-primary-600 transition-colors">Shipping Policy</Link></li>
+            <li><Link to="/returns" className="text-slate-500 hover:text-primary-600 transition-colors">Returns & Exchanges</Link></li>
+            <li><Link to="/faq" className="text-slate-500 hover:text-primary-600 transition-colors">FAQs</Link></li>
+            <li><Link to="/contact" className="text-slate-500 hover:text-primary-600 transition-colors">Contact Us</Link></li>
+            <li><Link to="/privacy" className="text-slate-500 hover:text-primary-600 transition-colors">Privacy Policy</Link></li>
           </ul>
         </div>
 
