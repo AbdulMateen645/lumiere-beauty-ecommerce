@@ -124,8 +124,8 @@ export const Checkout: React.FC = () => {
                     <div className="relative">
                       <input type="text" placeholder="0000 0000 0000 0000" className="w-full bg-white border border-slate-200 rounded-xl px-5 py-3 focus:outline-none focus:ring-2 focus:ring-primary-100 focus:border-primary-300" />
                       <div className="absolute right-4 top-1/2 -translate-y-1/2 flex gap-2">
-                        <img src="https://raw.githubusercontent.com/muhammedshokhene/creadit-card-logos/master/visa.png" alt="Visa" className="h-4" />
-                        <img src="https://raw.githubusercontent.com/muhammedshokhene/creadit-card-logos/master/mastercard.png" alt="Mastercard" className="h-6" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa" className="h-5" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" className="h-7" />
                       </div>
                     </div>
                   </div>
